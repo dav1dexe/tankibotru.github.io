@@ -209,6 +209,7 @@ html, body {
 .advantage__image {
   -webkit-filter: drop-shadow(0 0 100px #5050509a);
           filter: drop-shadow(0 0 100px #5050509a);
+  border-radius: 20px;
 }
 
 .advantage__title {
