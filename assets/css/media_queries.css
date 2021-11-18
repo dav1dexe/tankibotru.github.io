@@ -261,6 +261,11 @@
   .main__description {
     font-size: 13px;
     max-width: 260px;
+    padding: 16px 0 25px 0;
+  }
+  .main__button {
+      padding: 13px 30px;
+      font-size: 13px;
   }
   .advantage__item {
     -webkit-box-orient: vertical;
