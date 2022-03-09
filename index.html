@@ -1,173 +1,291 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8J0MW6M46"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-D8J0MW6M46');
-    </script>
-    <title>Tanki Bot RU</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="#2db5ff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Многофункциональный танковый бот, который поможет вам в поиске нужной информации по игре. Игровые рейтинги, игры и другие прикольные фичи ждут именно тебя" />
-    <meta name="keywords" content="Tanki Bot RU, танки онлайн бот, танки бот, tanki bot, танки онлайн дискорд бот">
+    <meta name="theme-color" content="#4687E9">
+    <meta name="description" content="Многофункциональный танковый бот, который поможет вам в поиске нужной информации по игре. Игровые рейтинги, топ игроки, трекер аккаунта, экономика, игры и другие прикольные фичи ждут именно тебя." />
+    <meta name="keywords" content="Tanki Bot RU, tankibot, tanki bot ru, танки онлайн бот">
     <meta property="og:image" content="https://tankibotru.xyz/assets/images/logo.png" />
     <meta property="og:image:alt" content="Logo" />
     <meta property="og:site_name" content="tankibotru.xyz" />
     <meta property="og:type" content="object" />
     <meta property="og:title" content="Tanki Bot RU" />
     <meta property="og:url" content="https://tankibotru.xyz" />
-    <meta property="og:description" content="Многофункциональный танковый бот, который поможет вам в поиске нужной информации по игре. Игровые рейтинги, игры и другие прикольные фичи ждут именно тебя" />
+    <meta property="og:description" content="Многофункциональный танковый бот, который поможет вам в поиске нужной информации по игре. Игровые рейтинги, топ игроки, трекер аккаунта, экономика, игры и другие прикольные фичи ждут именно тебя." />
+    <title>Tanki Bot RU</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media_queries.css">
     <link rel="shortcut icon" href="assets/images/logo.svg" type="image/svg">
 </head>
 <body>
-    <header class="header main_header">
-        <div class="container container-small">
-
+    <header class="header">
+        <div class="container">
             <nav class="menu">
-                <div class="menu__logo">
-                    <a href="/"><img src="assets/images/logo.svg" alt="Logo"></a>
+                <div class="logo">
+                    <a href="/"><img class="logo__image" src="assets/images/logo.svg" alt="logo"></a>
                 </div>
+
                 <ul class="menu__items">
                     <li class="menu__item">
-                        <a class="menu__item-text" href="https://docs.tankibotru.xyz/" target="_blank"><i class="fas fa-book menu__icon"></i>Документация</a>
+                        <a class="menu__item-text" href="https://dsc.gg/tankibotrucommunity" target="_blank">
+                            <i class="menu__icon fa-brands fa-discord"></i>Комьюнити
+                        </a>
                     </li>
                     
                     <li class="menu__item">
-                        <a class="menu__item-text" href="https://discord.com/invite/FKMMgGrFzt" target="_blank"><i class="fab fa-discord menu__icon"></i>Комьюнити</a>
+                        <a class="menu__item-text" href="https://docs.tankibotru.xyz" target="_blank">
+                            <i class="menu__icon fa-solid fa-book"></i>Документация
+                        </a>
                     </li>
-                    
                 </ul>
+
             </nav>
 
             <div class="main">
-                <h1 class="main__title">
-                    <img class="main__image" src="assets/images/bot.png" alt="Bot"> Tanki Bot RU
-                </h1>
-                <p class="main__description">Многофункциональный танковый бот, который поможет вам в поиске нужной информации по игре. Игровые рейтинги, игры и другие прикольные фичи ждут именно тебя</p>
-                <a class="main__button" href="https://discord.com/oauth2/authorize?client_id=876848990145105930&permissions=10240&scope=bot" target="_blank">Пригласить</a>
-            </div>
+                <div class="information">
+                    <h1 class="information__title">Tanki Bot RU</h1>
+                    <p class="information__description">
+                        Многофункциональный танковый бот, который поможет вам в поиске нужной информации по игре. Игровые рейтинги, топ игроки, трекер аккаунта, экономика, игры и другие прикольные фичи ждут именно тебя.
+                    </p>
 
+                    <a class="button" href="https://dsc.gg/tankibotru" target="_blank">
+                        <i class="menu__icon fa-brands fa-discord"></i> Добавить в Discord
+                    </a>
+
+                </div>
+
+                <div>
+                    <img class="information__image" src="assets/images/message.png" alt="">
+                </div>
+            </div>
         </div>
     </header>
 
-    <section class="about">
-        <div class="container container-small">
-            <h2 class="about__title">Танковый бот №1 в Discord</h2>
-            <div class="info">
-                <div class="info__item">
-                    <h3 class="info__title">130+</h3>
-                    <p class="info__description">Серверов</p>
-                </div>
-                <div class="info__item">
-                    <h3 class="info__title">500+</h3>
-                    <p class="info__description">Пользователей</p>
-                </div>
-                <div class="info__item">
-                    <h3 class="info__title">100+</h3>
-                    <p class="info__description">Команд</p>
+
+    <section style="background-color: #10101050;">
+        <div class="container">
+            <div class="guilds">
+                <h3 class="guilds__title">
+                    Бот используется на более, чем 250 сообществах
+                </h3>
+                <div class="guilds__images">
+                    <img class="guilds__image" src="assets/images/youtubers/immortal_hero_dow.jpg" alt="YouTuber Image" title="Immortal_Hero_Dow">
+                    <img class="guilds__image" src="assets/images/youtubers/mr_bahbka.jpg" alt="YouTuber Image" title="Mr.BaHbka123">
+                    <img class="guilds__image" src="assets/images/youtubers/aop_team_volant.jpg" alt="YouTuber Image" title="AoP | Team Volant">
+                    <img class="guilds__image" src="assets/images/youtubers/quirky.jpg" alt="YouTuber Image" title="Quirky">
+                    <img class="guilds__image" src="assets/images/youtubers/jumper.jpg" alt="YouTuber Image" title="Jumper">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="advantage">
-        <div class="container container-large">
-            <div class="advantage__items">
+    <section>
+        <div class="container">
+            <div class="feautures">
 
-                <div class="advantage__item">
-                    <div class="advantage__text">
-                        <h2 class="advantage__title">
-                            <img class="advantage__icon" src="assets/images/stats.png" alt="stats"> Игровая статистика
-                        </h2>
-                        <p class="advantage__description">Узнавайте статистику игроков прямо из вашего любимого сервера</p>
+                <div class="feautures__item">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/1.png" alt="Feauture">
+                            <h3 class="feautures__title">Простая конфигурация</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Вы можете изменить префикс, язык команд и настроить 
+                            некоторые параметры конфигурации. На данный момент 
+                            доступны следующие языки: RU, EN.<br><br>
+                            
+                            Если Вы хотите поддержать разработку бота, можете
+                            перевести фразы на другой язык.
+                        </p>
                     </div>
-                    <img class="advantage__image" src="assets/images/ratings.png" alt="ratings">
-                </div>
-            
-
-                <div class="advantage__item">
-                    <img class="advantage__image" src="assets/images/nicks.png" alt="nicks">
-                    <div class="advantage__text">
-                        <h2 class="advantage__title">
-                            <img class="advantage__icon" src="assets/images/magnifier.png" alt="magnifier"> Прошлый ник
-                        </h2>
-                        <p class="advantage__description">Хочешь узнать, кто изменил ник в игре? Теперь это не проблема</p>
-                    </div>
+                    <img class="feautures__image" src="assets/images/feautures/1.jpg" alt="Feauture">
                 </div>
 
-                <div class="advantage__item">
-                    <div class="advantage__text">
-                        <h2 class="advantage__title">
-                            <img class="advantage__icon" src="assets/images/croco.png" alt="croco"> Игры
-                        </h2>
-                        <p class="advantage__description">Соревнуйтесь со своими друзьями и весело проводите время в игре крокодил</p>
+
+                <div class="feautures__item">
+                    <img class="feautures__image" src="assets/images/feautures/2.jpg" alt="Feauture">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/2.png" alt="Feauture">
+                            <h3 class="feautures__title">Игровая статистика</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Бот отображает статистику игроков прямо из вашего 
+                            любимого сервера. Вам не нужно каждый раз обращаться 
+                            к порталу рейтингов, чтобы узнать желаемую информацию. 
+                            Все данные извлекаются прямо из общедоступного API 
+                            игровых рейтингов.<br><br>
+                             
+                            Умеет отображать текущий танк игрока, главную информацию,
+                            пушки, корпуса, модули, дроны, краски, режимы, припасы,
+                            подарки, недельную статистику, достижения.
+                        </p>
                     </div>
-                    <img class="advantage__image" src="assets/images/game.png" alt="game">
+                </div>
+                
+                <div class="feautures__item">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/3.png" alt="Feauture">
+                            <h3 class="feautures__title">Топ игроки</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Бот умеет отображать топ игроков по определённым предметам.<br><br>
+
+                            Например: основное, пушки, корпуса, режимы, модули, 
+                            дроны и припасы.
+                        </p>
+                    </div>
+                    <img class="feautures__image" src="assets/images/feautures/3.jpg" alt="Feauture">
+                </div>
+                
+                <div class="feautures__item">
+                    <img class="feautures__image" src="assets/images/feautures/4.jpg" alt="Feauture">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/4.png" alt="Feauture">
+                            <h3 class="feautures__title">Трекер аккаунта</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Позволяет просматривать вашу игровую статистику 
+                            за определённый день/неделю/месяц. Также 
+                            присутствует функция фильтрации по предметам.<br><br>
+
+                            Отслеживаются следующие типы данных: любая пушка, 
+                            корпус, дрон, модуль, режим, припас и многое другое.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="feautures__item">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/5.png" alt="Feauture">
+                            <h3 class="feautures__title">Tanki Sport</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Присутствует поддержка киберспортивного портала 
+                            Tanki Sport. Бот умеет отображать главную информацию, 
+                            достижения, трофеи, матчи, турниры, трансферы игрока.<br>
+                            Также главную информацию, трансферы, турниры, матчи 
+                            команд.
+                        </p>
+                    </div>
+                    <img class="feautures__image" src="assets/images/feautures/5.jpg" alt="Feauture">
+                </div>
+                
+                <div class="feautures__item">
+                    <img class="feautures__image" src="assets/images/feautures/6.jpg" alt="Feauture">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/6.png" alt="Feauture">
+                            <h3 class="feautures__title">Экономика</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Прокачивайте ваш профиль, открывайте контейнеры, 
+                            повышайте звание, покупайте коинбоксы, ультраконтейнеры, скин-контейнеры и 
+                            выбивайте крутые призы. Все это доступно прямо в боте. Круто, не правда?<br><br>
+
+                            Призы на основной аккаунт вывести невозможно.
+                        </p>
+                    </div>
                 </div>
 
-                <div class="advantage__item">
-                    <img class="advantage__image" src="assets/images/other.png" alt="other">
-                    <div class="advantage__text">
-                        <h2 class="advantage__title">
-                            <img class="advantage__icon" src="assets/images/communication.png" alt="communication"> Другое
-                        </h2>
-                        <p class="advantage__description">Полный список различных команд доступен в документации бота</p>
+                <div class="feautures__item">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/7.png" alt="Feauture">
+                            <h3 class="feautures__title">Игры</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Крокодил – это популярная игра, в которой ведущий 
+                            пытается объяснить загаданное слово, которое пришлёт ему 
+                            бот, а другим игрокам нужно это слово отгадать. Все слова 
+                            связаны с игрой. Игра помогает развивать логическое 
+                            мышление.
+                        </p>
+                    </div>
+                    <img class="feautures__image" src="assets/images/feautures/7.jpg" alt="Feauture">
+                </div>
+                
+                <div class="feautures__item">
+                    <img class="feautures__image" src="assets/images/feautures/8.jpg" alt="Feauture">
+                    <div class="feautures__text">
+                        <div class="feautures__top">
+                            <img class="feautures__icon" src="assets/images/supplies/8.png" alt="Feauture">
+                            <h3 class="feautures__title">Другое</h3>
+                        </div>
+                        <p class="feautures__description">
+                            Бот умеет отображать новости игры, текущий челлендж, статистику онлайна и многое другое.
+                        </p>
                     </div>
                 </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="invite">
+        <div class="container">
+            <h3 class="invite__title">
+                Пригласите лучшего танкового бота<br> на ваш Discord сервер прямо сейчас
+            </h3>
 
-            </div>  
+            <a class="button" href="https://dsc.gg/tankibotru" target="_blank">
+                <i class="menu__icon fa-brands fa-discord"></i> Добавить в Discord
+            </a>
         </div>
     </section>
 
-    
-    <section class="about">
-        <div class="container container-large">
-            <h2 class="about__title">Cервера, которые нам доверяют</h2>
-            <div class="best_guilds">
-                <div class="best_guilds__item">
-                    <img class="best_guilds__photo" src="https://cdn.discordapp.com/icons/615885441857486849/4942b540cc43cdf64f30ea542fe405d4.webp?size=1024" alt="Guild_Logo">
-                    <p class="best_guilds__title">Parkour</p>
-                </div>
+    <section>
+        <div class="container">
+            <div class="statistics">
+                <div class="statistics__items">
+                    <div class="statistics__item">
+                        <img class="statistics__icon" src="assets/images/community.svg" alt="">
+                        <h3 class="statistics__title">Сообществ</h3>
+                        <p class="statistics__description">250+</p>
+                    </div>
 
-                <div class="best_guilds__item">
-                    <img class="best_guilds__photo" src="https://cdn.discordapp.com/icons/821822065869848617/a_d40ebf0bbabf304f216fdc3f8d8b2475.webp?size=1024" alt="Guild_Logo">
-                    <p class="best_guilds__title">НТП</p>
-                </div>
+                    <div class="statistics__item">
+                        <img class="statistics__icon" src="assets/images/users.svg" alt="">
+                        <h3 class="statistics__title">Пользователей</h3>
+                        <p class="statistics__description">30 000+</p>
+                    </div>
 
-                <div class="best_guilds__item">
-                    <img class="best_guilds__photo" src="https://cdn.discordapp.com/icons/460798511814934529/a_0503ae449f286e769e441d36125b298b.gif?size=1024" alt="Guild_Logo">
-                    <p class="best_guilds__title">AoP</p>
+                    <div class="statistics__item">
+                        <img class="statistics__icon" src="assets/images/commands.svg" alt="">
+                        <h3 class="statistics__title">Команд</h3>
+                        <p class="statistics__description">100+</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container container-large">
+        <div class="container">
             <div class="footer__items">
-                <img class="footer__item footer__logo" src="assets/images/logo.svg" alt="Logo">
                 <div class="footer__item">
-                    <a class="footer__link" href="https://docs.tankibotru.xyz/" target="_blank">Документация</a>
-                    <a class="footer__link" href="https://discord.gg/FKMMgGrFzt" target="_blank">Поддержка</a>
-                    <a class="footer__link" href="https://discord.gg/FKMMgGrFzt" target="_blank">Фидбек</a>
+                    <h3 class="footer__title">Tanki Bot RU</h3>
                 </div>
+                <img class="footer__item" src="assets/images/logo.svg" alt="Logo">
                 <div class="footer__item">
-                    <h3 class="footer__title">Присоединяйтесь к нашему Discord серверу</h3>
-                    <div class="footer__icon"><a href="https://discord.gg/FKMMgGrFzt" target="_blank"><i class="fab fa-discord footer__discord"></i></a></div>
+                    <p class="footer__link"><a class="footer__link" href="https://docs.tankibotru.xyz" target="_blank">Документация</a></p>
+                    <p class="footer__link"><a class="footer__link" href="https://www.donationalerts.com/r/tanki_bot_ru" target="_blank">Пожертвования</a></p>
+                    <p class="footer__link"><a class="footer__link" href="https://dsc.gg/tankibotrucommunity" target="_blank">Сервер поддержки</a></p>
                 </div>
             </div>
+            <p class="footer__thanks">За предоставленные арты отдельное спасибо OTPAI3A и Quo 💙</p>
         </div>
     </footer>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <script src="assets/js/main.js"></script>
+
+    <!-- Dav1d -->
+
 </body>
 </html>
