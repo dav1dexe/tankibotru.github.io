@@ -181,6 +181,13 @@ p:hover, h1:hover, h3:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        opacity: 0;
+        transform: translateY(20px);
+        &.element-show {
+            opacity: 1;
+            transition: all 1s;
+            transform: translateY(0%);
+          }
     }
 
     &__text {
