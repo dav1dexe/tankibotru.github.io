@@ -311,3 +311,41 @@ p:hover, h1:hover, h3:hover {
         line-height: 124%;
     }
 }
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 180px 0;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    &__name {
+        font-size: 50px;
+        padding: 20px 0;
+    }
+
+    &__title {
+        font-size: 25px;
+    }
+
+    &__description {
+        padding-top: 30px;
+        font-size: 15px;
+        color: #656565;
+        line-height: 124%;
+    }
+
+    &__link {
+        color: #4687E9;
+        transition: color .3s;
+        text-decoration: none;
+
+        &:hover{
+            color: #3263ad;
+        }
+    }
+}
